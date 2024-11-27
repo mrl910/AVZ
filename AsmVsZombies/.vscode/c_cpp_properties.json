@@ -1,0 +1,11 @@
+{
+    "configurations": [{
+        "name": "Windows",
+        "includePath": [
+            "${workspaceRoot}\\inc"
+        ],
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+    }],
+    "version": 4
+}

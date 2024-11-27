@@ -1,0 +1,3 @@
+{
+    "compileOptions": "-std=c++1z -Wno-sign-compare __CUSTOM_ARGS__ \"__FILE_NAME__\" -isystem \"__AVZ_DIR__/inc\" -lavz -lgdi32 -L \"__AVZ_DIR__/bin\" -shared -o \"bin/libavz.dll\""
+}

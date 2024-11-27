@@ -1,0 +1,12 @@
+{
+    "configurations": [{
+        "name": "Windows",
+        "includePath": [
+            "d:/AVZ/AsmVsZombies/inc"
+        ],
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "compilerPath": "D:/AVZ/AsmVsZombies/MinGW/bin/g++"
+    }],
+    "version": 4
+}

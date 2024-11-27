@@ -1,0 +1,29 @@
+{
+    // 解注这条语句实现保存时格式化
+    // "editor.formatOnSave": true,
+
+    // AvZ 库的代码格式化方式，也可在根目录创建 .clang-format 文件粘贴引号内的内容（不含引号）实现相同的功能
+    // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, AlignTrailingComments: true, Cpp11BracedListStyle: true, BreakBeforeBraces: Attach, PackConstructorInitializers: NextLineOnly, SpaceInEmptyBlock: false }",
+
+    // 解注这条语句关闭 Cpp 插件的报错提示
+    // "C_Cpp.errorSquiggles": "disabled",
+
+    // clangd avz 配置命令
+    // 未安装 clangd vsc 扩展此配置无效
+    "clangd.fallbackFlags": [
+        "-Id:/AVZ/AsmVsZombies/inc",
+        "-std=c++14"
+    ],
+
+    // lldb-dap avz lldb executable-path 配置
+    // 未安装 lldb-dap 扩展此配置无效
+    "lldb-dap.executable-path": "d:/AVZ/AsmVsZombies/MinGW/bin/lldb-vscode.exe",
+    "avzConfigure.avzDir": "d:/AVZ/AsmVsZombies",
+    "avzConfigure.compileOptions": [
+        "-g",
+        "-Wall",
+        "-Wno-unused"
+    ],
+    "C_Cpp.errorSquiggles": "enabled",
+    "avzConfigure.pvzExeName": "PlantsVsZombies-En.exe"
+}
